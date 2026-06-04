@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="ta" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="காமராஜ் நற்பணி இயக்கம் - கர்மவீரர் காமராஜரின் வழியில் ஏழை எளிய மக்களுக்கு கல்வி மற்றும் சமூக நலத்திட்டங்களை வழங்கும் நற்பணி இயக்கம்.">
+    <title>காமராஜ் நற்பணி இயக்கம் | Kamaraj Narpanie Iyakkam</title>
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Iyakkam Logo" id="logo-img">
+                <span class="logo-text trn" data-en="Kamaraj<br>Narpanie Iyakkam" data-ta="காமராஜ்<br>நற்பணி இயக்கம்">காமராஜ்<br>நற்பணி இயக்கம்</span>
+            </a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active trn" data-en="Home" data-ta="முகப்பு">முகப்பு</a></li>
+                <li><a href="#about" class="nav-link trn" data-en="About Us" data-ta="இயக்கம் பற்றி">இயக்கம் பற்றி</a></li>
+                <li><a href="#kamarajar" class="nav-link trn" data-en="Kamarajar" data-ta="காமராஜர்">காமராஜர்</a></li>
+                <li><a href="#activities" class="nav-link trn" data-en="Activities" data-ta="செயல்பாடுகள்">செயல்பாடுகள்</a></li>
+                <li><a href="#gallery" class="nav-link trn" data-en="Gallery" data-ta="புகைப்படங்கள்">புகைப்படங்கள்</a></li>
+                <li><a href="#contact" class="nav-link trn" data-en="Join Us" data-ta="இணையுங்கள்">இணையுங்கள்</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <!-- Theme Toggle -->
+                <button class="icon-btn" id="theme-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <!-- Language Toggle -->
+                <button class="icon-btn" id="lang-btn" aria-label="Toggle Language">
+                    EN
+                </button>
+                <!-- Mobile Menu Hamburger -->
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge trn" data-en="Social Service Initiative" data-ta="சமூக நல முன்முயற்சி">சமூக நல முன்முயற்சி</span>
+                <h1 class="trn" data-en="Kamaraj<br><span>Narpanie Iyakkam</span>" data-ta="காமராஜ்<br><span>நற்பணி இயக்கம்</span>">காமராஜ்<br><span>நற்பணி இயக்கம்</span></h1>
+                <p class="hero-desc trn" 
+                   data-en="Carrying forward the inspiring legacy of Karma Veerar Kamarajar through dedicated community service, educational support, and welfare schemes for the underprivileged." 
+                   data-ta="கர்மவீரர் காமராஜரின் உன்னத வழியைப் பின்பற்றி, எளிய மக்களின் கல்வி, வாழ்வாதாரம் மற்றும் சமூக முன்னேற்றத்திற்காக அர்ப்பணிப்புடன் செயலாற்றும் நற்பணி இயக்கம்.">
+                   கர்மவீரர் காமராஜரின் உன்னத வழியைப் பின்பற்றி, எளிய மக்களின் கல்வி, வாழ்வாதாரம் மற்றும் சமூக முன்னேற்றத்திற்காக அர்ப்பணிப்புடன் செயலாற்றும் நற்பணி இயக்கம்.
+                </p>
+                
+                <div class="quote-box">
+                    <p class="trn" 
+                       data-en="&ldquo;Education is the key that unlocks the door of progress. Simplicity is the ultimate beauty.&rdquo;" 
+                       data-ta="&ldquo;வறுமையின் காரணமாக ஒரு குழந்தை கூட கல்வி கற்காமல் இருக்கக் கூடாது. கல்வி ஒன்றே சமூக மாற்றத்திற்கான ஆயுதம்.&rdquo;">
+                       &ldquo;வறுமையின் காரணமாக ஒரு குழந்தை கூட கல்வி கற்காமல் இருக்கக் கூடாது. கல்வி ஒன்றே சமூக மாற்றத்திற்கான ஆயுதம்.&rdquo;
+                    </p>
+                    <small style="color: var(--primary); font-weight: 600;" class="trn" data-en="- Karma Veerar Kamarajar" data-ta="- கர்மவீரர் காமராஜர்">- கர்மவீரர் காமராஜர்</small>
+                </div>
+                
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary trn" data-en="Become a Volunteer <i class='fa-solid fa-heart'></i>" data-ta="உறுப்பினர் ஆகுக <i class='fa-solid fa-heart'></i>">உறுப்பினர் ஆகுக <i class='fa-solid fa-heart'></i></a>
+                    <a href="#activities" class="btn btn-secondary trn" data-en="View Our Work" data-ta="எங்கள் பணிகள்">எங்கள் பணிகள்</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image-bg"></div>
+                <img src="assets/kamarajar_hero.jpg" alt="Karma Veerar Kamarajar" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge trn" data-en="Who We Are" data-ta="எங்களைப் பற்றி">எங்களைப் பற்றி</span>
+                <h2 class="trn" data-en="Our Vision & Mission" data-ta="எங்கள் நோக்கம் & கொள்கை">எங்கள் நோக்கம் & கொள்கை</h2>
+                <p class="trn" data-en="Dedicated to making positive changes in our society, focusing majorly on education and human welfare." data-ta="கல்வி மற்றும் மனித நேய நலத்திட்டங்களை முதன்மையாகக் கொண்டு சமூகத்தில் நல்ல மாற்றங்களை உருவாக்குவதற்காக அர்ப்பணிக்கப்பட்டது.">கல்வி மற்றும் மனித நேய நலத்திட்டங்களை முதன்மையாகக் கொண்டு சமூகத்தில் நல்ல மாற்றங்களை உருவாக்குவதற்காக அர்ப்பணிக்கப்பட்டது.</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content reveal reveal-left">
+                    <h3 class="trn" data-en="Serving the Needy with Dignity" data-ta="மனிதநேயத்துடன் எளியோர்க்குச் சேவை">மனிதநேயத்துடன் எளியோர்க்குச் சேவை</h3>
+                    <p class="trn" 
+                       data-en="Our organization was founded on the basic principle of Kamarajar's administration: 'No person should be denied basic education and hunger should be eradicated.' We actively work in local neighborhoods to identify underprivileged children and support their schooling, while providing survival aids to struggling families." 
+                       data-ta="பெருந்தலைவர் காமராஜர் அவர்களின் 'ஏழைக்குக் கல்வி, பசி இல்லாச் சமூகம்' என்ற கொள்கையின் அடிப்படையில் எமது இயக்கம் தொடங்கப்பட்டது. பின்தங்கிய பகுதி மாணவர்களைக் கண்டறிந்து கல்வி உதவித்தொகை வழங்குவதுடன், விளிம்புநிலை மக்களுக்குத் தேவையான அத்தியாவசிய உதவிகளையும் வழங்கி வருகிறோம்.">
+                       பெருந்தலைவர் காமராஜர் அவர்களின் 'ஏழைக்குக் கல்வி, பசி இல்லாச் சமூகம்' என்ற கொள்கையின் அடிப்படையில் எமது இயக்கம் தொடங்கப்பட்டது. பின்தங்கிய பகுதி மாணவர்களைக் கண்டறிந்து கல்வி உதவித்தொகை வழங்குவதுடன், விளிம்புநிலை மக்களுக்குத் தேவையான அத்தியாவசிய உதவிகளையும் வழங்கி வருகிறோம்.
+                    </p>
+                    
+                    <div class="about-details">
+                        <div class="about-item">
+                            <div class="about-item-icon"><i class="fa-solid fa-book-open"></i></div>
+                            <div class="about-item-text">
+                                <h4 class="trn" data-en="Educational Upliftment" data-ta="கல்வி வளர்ச்சிப் பணிகள்">கல்வி வளர்ச்சிப் பணிகள்</h4>
+                                <p class="trn" data-en="Providing school fees, stationery, uniforms, and mentorship to students." data-ta="மாணவர்களின் கல்விக்கட்டணம், புத்தகங்கள், சீருடை மற்றும் வழிகாட்டுதல் வழங்குதல்.">மாணவர்களின் கல்விக்கட்டணம், புத்தகங்கள், சீருடை மற்றும் வழிகாட்டுதல் வழங்குதல்.</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <div class="about-item-icon"><i class="fa-solid fa-hand-holding-hand"></i></div>
+                            <div class="about-item-text">
+                                <h4 class="trn" data-en="Welfare Support" data-ta="ஏழை எளியோர் நலன்">ஏழை எளியோர் நலன்</h4>
+                                <p class="trn" data-en="Free food drives, clothing distribution, and assistance to old age homes." data-ta="இலவச உணவு வழங்குதல், புத்தாடை வழங்குதல் மற்றும் முதியோர் இல்ல ஆதரவுப் பணிகள்.">இலவச உணவு வழங்குதல், புத்தாடை வழங்குதல் மற்றும் முதியோர் இல்ல ஆதரவுப் பணிகள்.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual reveal reveal-right">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">12+</span>
+                            <span class="stat-label trn" data-en="Years Service" data-ta="ஆண்டுகள் சேவை">ஆண்டுகள் சேவை</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">5,000+</span>
+                            <span class="stat-label trn" data-en="Welfare Recipients" data-ta="உதவி பெற்றோர்">உதவி பெற்றோர்</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">1,200+</span>
+                            <span class="stat-label trn" data-en="Students Supported" data-ta="கல்வி பெற்றோர்">கல்வி பெற்றோர்</span>
+                        </div>
+                    </div>
+                    <img src="assets/about_iyakkam.jpg" alt="Iyakkam social work" class="hero-img" style="margin-top: 30px; width: 100%; height: 280px; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kamarajar Legacy Section -->
+    <section class="section timeline-section" id="kamarajar">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge trn" data-en="The Legend" data-ta="பெருந்தலைவர்">பெருந்தலைவர்</span>
+                <h2 class="trn" data-en="Kamarajar's Golden Rule" data-ta="காமராஜரின் பொற்கால ஆட்சி">காமராஜரின் பொற்கால ஆட்சி</h2>
+                <p class="trn" data-en="Explore the milestone reforms of the simple leader who transformed Tamil Nadu's education and economy." data-ta="தமிழ்நாட்டின் கல்வி மற்றும் பொருளாதாரத்தை மாற்றியமைத்த எளிமையான தலைவரின் முக்கிய சாதனைகளை அறியுங்கள்.">தமிழ்நாட்டின் கல்வி மற்றும் பொருளாதாரத்தை மாற்றியமைத்த எளிமையான தலைவரின் முக்கிய சாதனைகளை அறியுங்கள்.</p>
+            </div>
+            
+            <div class="timeline-section-wrapper reveal">
+                <div class="tab-nav">
+                    <button class="tab-btn active trn" data-tab="tab-early" data-en="Early Life" data-ta="இளமைப்பருவம்">இளமைப்பருவம்</button>
+                    <button class="tab-btn trn" data-tab="tab-cm" data-en="Chief Ministership" data-ta="முதலமைச்சர் பணி">முதலமைச்சர் பணி</button>
+                    <button class="tab-btn trn" data-tab="tab-edu" data-en="Education Revolution" data-ta="கல்விப் புரட்சி">கல்விப் புரட்சி</button>
+                    <button class="tab-btn trn" data-tab="tab-simplicity" data-en="Simplicity & Legacy" data-ta="எளிமையும் தியாகமும்">எளிமையும் தியாகமும்</button>
+                </div>
+                
+                <div class="timeline-content-wrapper">
+                    <!-- Panel 1: Early Life -->
+                    <div class="tab-panel active" id="tab-early">
+                        <div class="panel-img-wrapper">
+                            <img src="assets/kamarajar_early.jpg" alt="Kamarajar Early Life" class="panel-img">
+                        </div>
+                        <div class="panel-info">
+                            <span class="year-badge">1903 - 1924</span>
+                            <h3 class="trn" data-en="Youth & Freedom Struggle" data-ta="இளமைக்காலமும் விடுதலைப் போராட்டமும்">இளமைக்காலமும் விடுதலைப் போராட்டமும்</h3>
+                            <p class="trn" 
+                               data-en="Born in Virudhunagar, young Kamarajar was deeply moved by the Jallianwala Bagh massacre. He entered politics at the age of 16, joining the Indian National Congress, dedicating his youth to the freedom struggle." 
+                               data-ta="விருதுநகரில் பிறந்த காமராஜர், இளம் வயதிலேயே நாட்டின் விடுதலை வேட்கையால் கவரப்பட்டார். 16-ஆம் வயதில் காங்கிரஸ் பேரியக்கத்தில் இணைந்து, தனது இளமைக்காலத்தை முழுமையாக நாட்டு விடுதலைக்காக அர்ப்பணித்தார்.">
+                               Born in Virudhunagar, young Kamarajar was deeply moved by the Jallianwala Bagh massacre. He entered politics at the age of 16, joining the Indian National Congress, dedicating his youth to the freedom struggle.
+                            </p>
+                            <ul>
+                                <li class="trn" data-en="Joined the independence movement at age 16." data-ta="16 வயதில் சுதந்திரப் போராட்டத்தில் பங்கேற்பு.">16 வயதில் சுதந்திரப் போராட்டத்தில் பங்கேற்பு.</li>
+                                <li class="trn" data-en="Participated in Salt Sathyagraha (1930) and jailed multiple times." data-ta="உப்பு சத்தியாகிரகப் போராட்டத்தில் (1930) பங்கேற்று சிறைவாசம்.">உப்பு சத்தியாகிரகப் போராட்டத்தில் (1930) பங்கேற்று சிறைவாசம்.</li>
+                                <li class="trn" data-en="Mentored by veteran leader Dheerar Sathyamurthy." data-ta="தீரர் சத்தியமூர்த்தியைத் தன் அரசியல் குருவாக ஏற்றுக் கொண்டார்.">தீரர் சத்தியமூர்த்தியைத் தன் அரசியல் குருவாக ஏற்றுக் கொண்டார்.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Panel 2: CM Ship -->
+                    <div class="tab-panel" id="tab-cm">
+                        <div class="panel-img-wrapper">
+                            <img src="assets/kamarajar_cm.jpg" alt="Kamarajar Chief Minister" class="panel-img">
+                        </div>
+                        <div class="panel-info">
+                            <span class="year-badge">1954 - 1963</span>
+                            <h3 class="trn" data-en="Architect of Modern Tamil Nadu" data-ta="நவீன தமிழ்நாட்டின் சிற்பி">நவீன தமிழ்நாட்டின் சிற்பி</h3>
+                            <p class="trn" 
+                               data-en="During his 9-year tenure as Chief Minister, Tamil Nadu witnessed major industrial and agricultural growth. He constructed major dams like Lower Bhavani, Vaigai, and industrial institutions like ICF and BHEL." 
+                               data-ta="ஒன்பது ஆண்டுகள் முதலமைச்சராகப் பணியாற்றிய காலத்தில் தமிழ்நாடு தொழில் மற்றும் விவசாயத் துறையில் பெரும் வளர்ச்சி கண்டது. பவானிசாகர், வைகை, மணிமுத்தாறு அணைத் திட்டங்களையும், ICF, BHEL போன்ற தொழிற்சாலைகளையும் நிறுவினார்.">
+                               During his 9-year tenure as Chief Minister, Tamil Nadu witnessed major industrial and agricultural growth. He constructed major dams like Lower Bhavani, Vaigai, and industrial institutions like ICF and BHEL.
+                            </p>
+                            <ul>
+                                <li class="trn" data-en="Built 9 major irrigation dams transforming agriculture." data-ta="விவசாய உற்பத்தியைப் பெருக்க 9 முக்கிய நீர்ப்பாசன அணைகளைக் கட்டினார்.">விவசாய உற்பத்தியைப் பெருக்க 9 முக்கிய நீர்ப்பாசன அணைகளைக் கட்டினார்.</li>
+                                <li class="trn" data-en="Set up major public sector enterprises like ICF, BHEL, and Neyveli Lignite." data-ta="ICF, BHEL மற்றும் நெய்வேலி நிலக்கரி நிறுவனம் போன்ற பொதுத்துறை நிறுவனங்கள் அமையக் காரணம்.">ICF, BHEL மற்றும் நெய்வேலி நிலக்கரி நிறுவனம் போன்ற பொதுத்துறை நிறுவனங்கள் அமையக் காரணம்.</li>
+                                <li class="trn" data-en="Implemented the 'K-Plan' resigning from office to serve the public directly." data-ta="அரசியலை விட மக்கள் பணியே முதன்மை என 'காமராஜர் திட்டம்' (K-Plan) மூலம் முதல்வர் பதவியை ராஜினாமா செய்தார்.">அரசியலை விட மக்கள் பணியே முதன்மை என 'காமராஜர் திட்டம்' (K-Plan) மூலம் முதல்வர் பதவியை ராஜினாமா செய்தார்.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Panel 3: Education Revolution -->
+                    <div class="tab-panel" id="tab-edu">
+                        <div class="panel-img-wrapper">
+                            <img src="assets/kamarajar_edu.jpg" alt="Kamarajar Education" class="panel-img">
+                        </div>
+                        <div class="panel-info">
+                            <span class="year-badge">Pioneering Education</span>
+                            <h3 class="trn" data-en="Opened the Eyes of Education" data-ta="கல்விக் கண் திறந்தவர்">கல்விக் கண் திறந்தவர்</h3>
+                            <p class="trn" 
+                               data-en="Recognizing that poverty should not stop education, he introduced free school education and the path-breaking Mid-day Meal Scheme. Millions of poor children started attending schools, drastically increasing literacy." 
+                               data-ta="வறுமையினால் எந்தக் குழந்தையும் பள்ளிக்கு வராமல் இருக்கக் கூடாது என்பதற்காக இலவசக் கட்டாயக் கல்வியையும், வரலாற்றுச் சிறப்புமிக்க மதிய உணவுத் திட்டத்தையும் அறிமுகப்படுத்தி கல்விப் புரட்சி செய்தார்.">
+                               Recognizing that poverty should not stop education, he introduced free school education and the path-breaking Mid-day Meal Scheme. Millions of poor children started attending schools, drastically increasing literacy.
+                            </p>
+                            <ul>
+                                <li class="trn" data-en="Introduced the pathbreaking Mid-day Meal Scheme in schools." data-ta="பள்ளிகளில் இலவச மதிய உணவுத் திட்டத்தை முதன்முதலில் அறிமுகம் செய்தார்.">பள்ளிகளில் இலவச மதிய உணவுத் திட்டத்தை முதன்முதலில் அறிமுகம் செய்தார்.</li>
+                                <li class="trn" data-en="Increased school enrollment from 7% to 37% during his tenure." data-ta="அவர் ஆட்சிக் காலத்தில் பள்ளிச் சேர்க்கை விகிதம் 7% லிருந்து 37% ஆக உயர்ந்தது.">அவர் ஆட்சிக் காலத்தில் பள்ளிச் சேர்க்கை விகிதம் 7% லிருந்து 37% ஆக உயர்ந்தது.</li>
+                                <li class="trn" data-en="Ensured school availability within 3 km of every village." data-ta="ஒவ்வொரு கிராமத்திற்கும் 3 கி.மீ தூரத்திற்குள் தொடக்கப் பள்ளிகள் அமைய வழி செய்தார்.">ஒவ்வொரு கிராமத்திற்கும் 3 கி.மீ தூரத்திற்குள் தொடக்கப் பள்ளிகள் அமைய வழி செய்தார்.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Panel 4: Simplicity -->
+                    <div class="tab-panel" id="tab-simplicity">
+                        <div class="panel-img-wrapper">
+                            <img src="assets/kamarajar_simplicity.jpg" alt="Kamarajar Simplicity" class="panel-img">
+                        </div>
+                        <div class="panel-info">
+                            <span class="year-badge">Legacy of Simplicity</span>
+                            <h3 class="trn" data-en="A Life of Selflessness" data-ta="தூய எளிமையும் பொதுநலமும்">தூய எளிமையும் பொதுநலமும்</h3>
+                            <p class="trn" 
+                               data-en="Kamarajar left behind an unparalleled legacy of simplicity. He lived in a simple rented house, owned only a few sets of khadi clothes, and had no bank balance or land property at the time of his demise in 1975." 
+                               data-ta="அவரது எளிமையான வாழ்வு இந்திய அரசியலின் மிகச்சிறந்த இலக்கணமாகும். 1975-இல் அவர் இயற்கை எய்தியபோது, அவரிடம் எஞ்சியிருந்தது சில கதர் ஆடைகளும், ஒரு சில ரூபாய் நோட்டுகளும் மட்டுமே.">
+                               Kamarajar left behind an unparalleled legacy of simplicity. He lived in a simple rented house, owned only a few sets of khadi clothes, and had no bank balance or land property at the time of his demise in 1975.
+                            </p>
+                            <ul>
+                                <li class="trn" data-en="Lived in a simple, modest rented house even after serving as CM." data-ta="முதலமைச்சராக இருந்தபோதும் வாடகை வீட்டிலேயே எளிய வாழ்க்கை நடத்தினார்.">முதலமைச்சராக இருந்தபோதும் வாடகை வீட்டிலேயே எளிய வாழ்க்கை நடத்தினார்.</li>
+                                <li class="trn" data-en="Posthumously awarded India's highest civilian honor, Bharat Ratna, in 1976." data-ta="அவரது தியாகத்தைப் பாராட்டி, 1976-இல் பாரத ரத்னா விருது வழங்கப்பட்டது.">அவரது தியாகத்தைப் பாராட்டி, 1976-இல் பாரத ரத்னா விருது வழங்கப்பட்டது.</li>
+                                <li class="trn" data-en="Remembered globally as the 'Kingmaker' of Indian democracy." data-ta="இந்திய ஜனநாயகத்தின் 'மன்னர்களை உருவாக்குபவர்' (Kingmaker) என்று போற்றப்பட்டார்.">இந்திய ஜனநாயகத்தின் 'மன்னர்களை உருவாக்குபவர்' (Kingmaker) என்று போற்றப்பட்டார்.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Grid Section -->
+    <section class="section" id="activities">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge trn" data-en="Our Services" data-ta="இயக்கப் பணிகள்">இயக்கப் பணிகள்</span>
+                <h2 class="trn" data-en="Recent Social Activities" data-ta="சமீபத்திய நற்பணிகள்">சமீபத்திய நற்பணிகள்</h2>
+                <p class="trn" data-en="Highlighting some of the service work carried out by our association volunteers." data-ta="எமது இயக்கத் தொண்டர்களால் முன்னெடுக்கப்பட்ட சில முக்கிய நலத்திட்டப் பணிகள்.">எமது இயக்கத் தொண்டர்களால் முன்னெடுக்கப்பட்ட சில முக்கிய நலத்திட்டப் பணிகள்.</p>
+            </div>
+            
+            <div class="filter-nav reveal">
+                <button class="filter-btn active trn" data-filter="all" data-en="All" data-ta="அனைத்தும்">அனைத்தும்</button>
+                <button class="filter-btn trn" data-filter="edu" data-en="Education" data-ta="கல்வி">கல்வி</button>
+                <button class="filter-btn trn" data-filter="welfare" data-en="Welfare" data-ta="நலத்திட்டங்கள்">நலத்திட்டங்கள்</button>
+                <button class="filter-btn trn" data-filter="health" data-en="Health" data-ta="சுகாதாரம்">சுகாதாரம்</button>
+                <button class="filter-btn trn" data-filter="env" data-en="Environment" data-ta="சுற்றுச்சூழல்">சுற்றுச்சூழல்</button>
+            </div>
+            
+            <div class="activities-grid reveal">
+                <!-- Card 1 -->
+                <div class="activity-card" data-category="edu">
+                    <div class="activity-img-wrapper">
+                        <span class="activity-category trn" data-en="Education" data-ta="கல்வி">கல்வி</span>
+                        <img src="assets/activity_edu.jpg" alt="Notebooks Distribution" class="activity-img">
+                    </div>
+                    <div class="activity-body">
+                        <h3 class="trn" data-en="Notebook & Stationery Distribution" data-ta="புத்தகங்கள் மற்றும் உபகரணங்கள் வழங்கல்">புத்தகங்கள் மற்றும் உபகரணங்கள் வழங்கல்</h3>
+                        <p class="trn" data-en="Distributed notebooks, bags, and stationery sets to over 150 needy children in government schools for the new academic year." data-ta="புதிய கல்வி ஆண்டை முன்னிட்டு, அரசுப் பள்ளி மாணவர்கள் 150-க்கும் மேற்பட்டோருக்கு நோட்டுப் புத்தகங்கள், எழுதுபொருட்களை வழங்கினோம்.">புதிய கல்வி ஆண்டை முன்னிட்டு, அரசுப் பள்ளி மாணவர்கள் 150-க்கும் மேற்பட்டோருக்கு நோட்டுப் புத்தகங்கள், எழுதுபொருட்களை வழங்கினோம்.</p>
+                        <div class="activity-footer">
+                            <span class="activity-date"><i class="fa-regular fa-calendar"></i> June 2026</span>
+                            <span class="trn" data-en="Annual Event" data-ta="வருடாந்திர பணி">வருடாந்திர பணி</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="activity-card" data-category="welfare">
+                    <div class="activity-img-wrapper">
+                        <span class="activity-category trn" data-en="Welfare" data-ta="நலத்திட்டம்">நலத்திட்டம்</span>
+                        <img src="assets/activity_meals.jpg" alt="Meals Distribution" class="activity-img">
+                    </div>
+                    <div class="activity-body">
+                        <h3 class="trn" data-en="Mid-day Meals & Food Drive" data-ta="மதிய உணவு வழங்கும் திட்டம்">மதிய உணவு வழங்கும் திட்டம்</h3>
+                        <p class="trn" data-en="Providing hot, nutritious lunch packets to the elderly, homeless, and daily wage workers who are struggling in our local area." data-ta="நமது பகுதியில் சாலையோரம் வசிக்கும் முதியவர்கள் மற்றும் ஆதரவற்றோருக்கு சத்தான மதிய உணவு மற்றும் குடிநீர் வழங்கினோம்.">நமது பகுதியில் சாலையோரம் வசிக்கும் முதியவர்கள் மற்றும் ஆதரவற்றோருக்கு சத்தான மதிய உணவு மற்றும் குடிநீர் வழங்கினோம்.</p>
+                        <div class="activity-footer">
+                            <span class="activity-date"><i class="fa-regular fa-calendar"></i> Weekly</span>
+                            <span class="trn" data-en="Ongoing Service" data-ta="தொடர் சேவை">தொடர் சேவை</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="activity-card" data-category="health">
+                    <div class="activity-img-wrapper">
+                        <span class="activity-category trn" data-en="Health" data-ta="சுகாதாரம்">சுகாதாரம்</span>
+                        <img src="assets/activity_blood.jpg" alt="Blood Camp" class="activity-img">
+                    </div>
+                    <div class="activity-body">
+                        <h3 class="trn" data-en="Mega Blood Donation Camp" data-ta="இரத்த தான முகாம்">இரத்த தான முகாம்</h3>
+                        <p class="trn" data-en="Organized a successful blood donation camp in partnership with the Government Hospital, collecting 120+ units of blood to save lives." data-ta="அரசு மருத்துவமனையுடன் இணைந்து இரத்த தான முகாம் நடத்தினோம். இதில் நமது இளைஞர்கள் பலர் ஆர்வமுடன் பங்கேற்று 120 யூனிட் இரத்தம் வழங்கினர்.">அரசு மருத்துவமனையுடன் இணைந்து இரத்த தான முகாம் நடத்தினோம். இதில் நமது இளைஞர்கள் பலர் ஆர்வமுடன் பங்கேற்று 120 யூனிட் இரத்தம் வழங்கினர்.</p>
+                        <div class="activity-footer">
+                            <span class="activity-date"><i class="fa-regular fa-calendar"></i> May 2026</span>
+                            <span class="trn" data-en="Emergency Support" data-ta="அவசரகால உதவி">அவசரகால உதவி</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="activity-card" data-category="env">
+                    <div class="activity-img-wrapper">
+                        <span class="activity-category trn" data-en="Environment" data-ta="சுற்றுச்சூழல்">சுற்றுச்சூழல்</span>
+                        <img src="assets/activity_trees.jpg" alt="Saplings Planting" class="activity-img">
+                    </div>
+                    <div class="activity-body">
+                        <h3 class="trn" data-en="Tree Plantation & Clean Drive" data-ta="மரக்கன்றுகள் நடுதல் & தூய்மைப்பணி">மரக்கன்றுகள் நடுதல் & தூய்மைப்பணி</h3>
+                        <p class="trn" data-en="Planted 200+ native tree saplings across public parks and roadsides, committing to watering and protecting them to green our community." data-ta="பொதுப் பூங்காக்கள் மற்றும் சாலை ஓரங்களில் 200-க்கும் மேற்பட்ட பாரம்பரிய மரக்கன்றுகளை நட்டு, அவற்றை பாதுகாக்கும் பொறுப்பை ஏற்றுக் கொண்டோம்.">பொதுப் பூங்காக்கள் மற்றும் சாலை ஓரங்களில் 200-க்கும் மேற்பட்ட பாரம்பரிய மரக்கன்றுகளை நட்டு, அவற்றை பாதுகாக்கும் பொறுப்பை ஏற்றுக் கொண்டோம்.</p>
+                        <div class="activity-footer">
+                            <span class="activity-date"><i class="fa-regular fa-calendar"></i> April 2026</span>
+                            <span class="trn" data-en="Green Initiative" data-ta="பசுமை இயக்கம்">பசுமை இயக்கம்</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 5 -->
+                <div class="activity-card" data-category="edu">
+                    <div class="activity-img-wrapper">
+                        <span class="activity-category trn" data-en="Education" data-ta="கல்வி">கல்வி</span>
+                        <img src="assets/activity_scholar.jpg" alt="Scholarship distribution" class="activity-img">
+                    </div>
+                    <div class="activity-body">
+                        <h3 class="trn" data-en="Higher Education Scholarships" data-ta="உயர்கல்வி உதவித்தொகை வழங்கல்">உயர்கல்வி உதவித்தொகை வழங்கல்</h3>
+                        <p class="trn" data-en="Assisted 12 underprivileged students with college admission fees and tuition support to enable them to pursue engineering and nursing." data-ta="பொருளாதாரத்தில் பின்தங்கிய 12 தகுதியான மாணவர்களுக்கு பொறியியல் மற்றும் செவிலியர் பட்டப்படிப்புக்கான சேர்க்கை கட்டணத்தை வழங்கினோம்.">பொருளாதாரத்தில் பின்தங்கிய 12 தகுதியான மாணவர்களுக்கு பொறியியல் மற்றும் செவிலியர் பட்டப்படிப்புக்கான சேர்க்கை கட்டணத்தை வழங்கினோம்.</p>
+                        <div class="activity-footer">
+                            <span class="activity-date"><i class="fa-regular fa-calendar"></i> May 2026</span>
+                            <span class="trn" data-en="Scholarships" data-ta="கல்வி நிதியுதவி">கல்வி நிதியுதவி</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 6 -->
+                <div class="activity-card" data-category="welfare">
+                    <div class="activity-img-wrapper">
+                        <span class="activity-category trn" data-en="Welfare" data-ta="நலத்திட்டம்">நலத்திட்டம்</span>
+                        <img src="assets/activity_cloth.jpg" alt="Oldage Home Support" class="activity-img">
+                    </div>
+                    <div class="activity-body">
+                        <h3 class="trn" data-en="Elderly Care & Clothes Drive" data-ta="முதியோர் பாதுகாப்பு & ஆடை வழங்கல்">முதியோர் பாதுகாப்பு & ஆடை வழங்கல்</h3>
+                        <p class="trn" data-en="Distributed blankets, clothes, and hygiene essentials to local orphanages and old age shelter homes to support residents." data-ta="வட்டார ஆதரவற்றோர் மற்றும் முதியோர் காப்பகங்களுக்கு தேவையான கம்பளிகள், புதிய ஆடைகள் மற்றும் சுகாதார உபகரணங்களை வழங்கினோம்.">வட்டார ஆதரவற்றோர் மற்றும் முதியோர் காப்பகங்களுக்கு தேவையான கம்பளிகள், புதிய ஆடைகள் மற்றும் சுகாதார உபகரணங்களை வழங்கினோம்.</p>
+                        <div class="activity-footer">
+                            <span class="activity-date"><i class="fa-regular fa-calendar"></i> March 2026</span>
+                            <span class="trn" data-en="Welfare Support" data-ta="மனிதாபிமான உதவி">மனிதாபிமான உதவி</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="section" id="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge trn" data-en="Gallery" data-ta="புகைப்படங்கள்">புகைப்படங்கள்</span>
+                <h2 class="trn" data-en="Moments of Service" data-ta="சேவையின் தருணங்கள்">சேவையின் தருணங்கள்</h2>
+                <p class="trn" data-en="Visual glimpses of our volunteers working on the field, supporting our local community." data-ta="களத்தில் எமது தொண்டர்கள் ஆற்றிய நற்பணிகளின் சில நிழற்படப் பதிவுகள்.">களத்தில் எமது தொண்டர்கள் ஆற்றிய நற்பணிகளின் சில நிழற்படப் பதிவுகள்.</p>
+            </div>
+            
+            <div class="gallery-grid reveal">
+                <div class="gallery-item wide">
+                    <img src="assets/gallery_1.jpg" alt="Student study help">
+                    <div class="gallery-overlay">
+                        <h4 class="trn" data-en="Free Tuition Centers" data-ta="இலவச மாலை நேரப் பயிலரங்கம்">இலவச மாலை நேரப் பயிலரங்கம்</h4>
+                        <p class="trn" data-en="Supporting daily homework studies for kids." data-ta="குழந்தைகளுக்கான தினசரி மாலை நேர கல்வி உதவி மையம்.">குழந்தைகளுக்கான தினசரி மாலை நேர கல்வி உதவி மையம்.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gallery_2.jpg" alt="Blood donor award">
+                    <div class="gallery-overlay">
+                        <h4 class="trn" data-en="Blood Donor Honor" data-ta="இரத்த தான கௌரவிப்பு">இரத்த தான கௌரவிப்பு</h4>
+                        <p class="trn" data-en="Honoring our regular volunteers." data-ta="தொடர் இரத்த தானம் வழங்கும் தொண்டர்களுக்கு பாராட்டு.">தொடர் இரத்த தானம் வழங்கும் தொண்டர்களுக்கு பாராட்டு.</p>
+                    </div>
+                </div>
+                <div class="gallery-item tall">
+                    <img src="assets/gallery_3.jpg" alt="Clean campaign">
+                    <div class="gallery-overlay">
+                        <h4 class="trn" data-en="Lake Cleaning Camp" data-ta="ஏரி தூய்மைப்படுத்தும் பணி">ஏரி தூய்மைப்படுத்தும் பணி</h4>
+                        <p class="trn" data-en="Restoring local water bodies." data-ta="நீர் நிலைகளை பாதுகாத்து மேம்படுத்துதல்.">நீர் நிலைகளை பாதுகாத்து மேம்படுத்துதல்.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gallery_4.jpg" alt="Distribution of rice">
+                    <div class="gallery-overlay">
+                        <h4 class="trn" data-en="Grocery Distribution" data-ta="அத்தியாவசியப் பொருட்கள் வழங்கல்">அத்தியாவசியப் பொருட்கள் வழங்கல்</h4>
+                        <p class="trn" data-en="Dry rations distribution for widows." data-ta="நலிவடைந்த தாய்மார்களுக்கு உணவுப் பொருட்கள் வழங்கல்.">நலிவடைந்த தாய்மார்களுக்கு உணவுப் பொருட்கள் வழங்கல்.</p>
+                    </div>
+                </div>
+                <div class="gallery-item wide">
+                    <img src="assets/gallery_5.jpg" alt="Kamarajar birthday celebration">
+                    <div class="gallery-overlay">
+                        <h4 class="trn" data-en="Kamarajar Birthday Celebration" data-ta="பெருந்தலைவர் பிறந்த நாள் விழா">பெருந்தலைவர் பிறந்த நாள் விழா</h4>
+                        <p class="trn" data-en="Educational Development Day celebration." data-ta="பள்ளிகளில் கல்வி வளர்ச்சி நாள் விழா கொண்டாட்டம்.">பள்ளிகளில் கல்வி வளர்ச்சி நாள் விழா கொண்டாட்டம்.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gallery_6.jpg" alt="Sapling growth">
+                    <div class="gallery-overlay">
+                        <h4 class="trn" data-en="Nature Protection" data-ta="இயற்கை பாதுகாப்பு">இயற்கை பாதுகாப்பு</h4>
+                        <p class="trn" data-en="Caring for young tree saplings." data-ta="மரக்கன்றுகளின் வளர்ச்சி பராமரிப்பு.">மரக்கன்றுகளின் வளர்ச்சி பராமரிப்பு.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Pop-up Element -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close">&times;</button>
+            <img src="" alt="" id="lightbox-img">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Contact & Join Us Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge trn" data-en="Get Involved" data-ta="எங்களுடன் இணையுங்கள்">எங்களுடன் இணையுங்கள்</span>
+                <h2 class="trn" data-en="Contact & Join Our Iyakkam" data-ta="தொடர்பு & உறுப்பினர் விண்ணப்பம்">தொடர்பு & உறுப்பினர் விண்ணப்பம்</h2>
+                <p class="trn" data-en="Become a volunteer or reach out to us if you need any community assistance." data-ta="நற்பணிகளில் பங்கெடுக்க அல்லது சமூக உதவிகள் தேவைப்படின் எங்களை நாடலாம்.">நற்பணிகளில் பங்கெடுக்க அல்லது சமூக உதவிகள் தேவைப்படின் எங்களை நாடலாம்.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info reveal reveal-left">
+                    <div class="contact-info-header">
+                        <h3 class="trn" data-en="Association Office" data-ta="இயக்க அலுவலகம்">இயக்க அலுவலகம்</h3>
+                        <p class="trn" data-en="Feel free to visit our office or contact us through the details below. We are here to serve." data-ta="எங்கள் அலுவலகத்திற்கு நேரடியாக வரலாம் அல்லது கீழ்க்கண்ட எண்கள் மூலமாக தொடர்பு கொள்ளலாம்.">எங்கள் அலுவலகத்திற்கு நேரடியாக வரலாம் அல்லது கீழ்க்கண்ட எண்கள் மூலமாக தொடர்பு கொள்ளலாம்.</p>
+                    </div>
+                    
+                    <ul class="contact-details-list">
+                        <li class="contact-detail-item">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-text">
+                                <h5 class="trn" data-en="Address" data-ta="முகவரி">முகவரி</h5>
+                                <p class="trn" data-en="Mela Nadar Street, Tiruchendur - 628215" data-ta="மேல நாடார் தெரு, திருச்செந்தூர் - 628215">மேல நாடார் தெரு, திருச்செந்தூர் - 628215</p>
+                            </div>
+                        </li>
+                        <li class="contact-detail-item">
+                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-text">
+                                <h5 class="trn" data-en="Phone" data-ta="தொலைபேசி">தொலைபேசி</h5>
+                                <p>+91 90804 61699</p>
+                            </div>
+                        </li>
+                        <li class="contact-detail-item">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-text">
+                                <h5 class="trn" data-en="Email" data-ta="மின்னஞ்சல்">மின்னஞ்சல்</h5>
+                                <p>muthuvelraj2818@gmail.com</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div>
+                        <h5 class="trn" data-en="Follow Our Work" data-ta="எங்களைப் பின்தொடர">எங்களைப் பின்தொடர</h5>
+                        <div class="social-links">
+                            <a href="#" class="icon-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="icon-btn" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="icon-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="icon-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container reveal reveal-right">
+                    <h3 class="trn" data-en="Send Us a Message" data-ta="தொடர்பு விண்ணப்பம்">தொடர்பு விண்ணப்பம்</h3>
+                    <form id="iyakkam-form" action="#">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-name" class="form-label trn" data-en="Full Name" data-ta="முழுப் பெயர்">முழுப் பெயர்</label>
+                                <input type="text" id="form-name" class="form-control" placeholder="Rajesh" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-phone" class="form-label trn" data-en="Phone Number" data-ta="தொலைபேசி எண்">தொலைபேசி எண்</label>
+                                <input type="tel" id="form-phone" class="form-control" placeholder="9080461699" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form-email" class="form-label trn" data-en="Email Address (Optional)" data-ta="மின்னஞ்சல் முகவரி (விருப்பப்பட்டால்)">மின்னஞ்சல் முகவரி (விருப்பப்பட்டால்)</label>
+                            <input type="email" id="form-email" class="form-control" placeholder="muthuvelraj2818@gmail.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form-purpose" class="form-label trn" data-en="Purpose" data-ta="நோக்கம்">நோக்கம்</label>
+                            <select id="form-purpose" class="form-control">
+                                <option value="volunteer" class="trn" data-en="Join as Volunteer" data-ta="தொண்டராக இணைய">தொண்டராக இணைய</option>
+                                <option value="aid" class="trn" data-en="Request Help / Aid" data-ta="உதவி கோர">உதவி கோர</option>
+                                <option value="donation" class="trn" data-en="Support / Donate" data-ta="நன்கொடை வழங்க">நன்கொடை வழங்க</option>
+                                <option value="general" class="trn" data-en="General Enquiry" data-ta="பொதுவான விவரம் பெற">பொதுவான விவரம் பெற</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form-message" class="form-label trn" data-en="Message / Details" data-ta="செய்தி / விவரம்">செய்தி / விவரம்</label>
+                            <textarea id="form-message" class="form-control" placeholder="Type details here..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary trn" style="width: 100%; border: none;" data-en="Submit Application <i class='fa-solid fa-paper-plane'></i>" data-ta="விண்ணப்பத்தை அனுப்பு <i class='fa-solid fa-paper-plane'></i>">விண்ணப்பத்தை அனுப்பு <i class='fa-solid fa-paper-plane'></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Toast Notification Message -->
+    <div class="toast-msg" id="toast-msg">
+        <i class="fa-solid fa-circle-check" style="color: var(--accent); font-size: 1.25rem;"></i>
+        <div>
+            <h5 id="toast-title" style="margin-bottom: 2px;">Success</h5>
+            <p id="toast-body" style="font-size: 0.85rem; margin-bottom: 0;">Message Sent Successfully!</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h4 class="trn" data-en="Kamaraj Narpanie Iyakkam" data-ta="காமராஜ் நற்பணி இயக்கம்">காமராஜ் நற்பணி இயக்கம்</h4>
+                <p class="trn" 
+                   data-en="A dedicated social welfare organization inspired by the ideals of Simplicity, Integrity, and Education for all, set by Karma Veerar K. Kamarajar." 
+                   data-ta="கர்மவீரர் காமராஜரின் எளிமை, நேர்மை மற்றும் கல்விச் சேவையின் உன்னதக் கொள்கைகளால் வழிநடத்தப்படும் சமூக நல நற்பணி இயக்கம்.">
+                   கர்மவீரர் காமராஜரின் எளிமை, நேர்மை மற்றும் கல்விச் சேவையின் உன்னதக் கொள்கைகளால் வழிநடத்தப்படும் சமூக நல நற்பணி இயக்கம்.
+                </p>
+            </div>
+            
+            <div class="footer-links">
+                <h5 class="trn" data-en="Quick Links" data-ta="விரைவு இணைப்புகள்">விரைவு இணைப்புகள்</h5>
+                <ul>
+                    <li><a href="#home" class="trn" data-en="Home" data-ta="முகப்பு">முகப்பு</a></li>
+                    <li><a href="#about" class="trn" data-en="About Us" data-ta="இயக்கம் பற்றி">இயக்கம் பற்றி</a></li>
+                    <li><a href="#kamarajar" class="trn" data-en="Kamarajar" data-ta="காமராஜர்">காமராஜர்</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h5 class="trn" data-en="Activities" data-ta="செயல்பாடுகள்">செயல்பாடுகள்</h5>
+                <ul>
+                    <li><a href="#activities" class="trn" data-en="Recent Works" data-ta="சமீபத்திய பணிகள்">சமீபத்திய பணிகள்</a></li>
+                    <li><a href="#gallery" class="trn" data-en="Photo Gallery" data-ta="புகைப்பட தொகுப்பு">புகைப்பட தொகுப்பு</a></li>
+                    <li><a href="#contact" class="trn" data-en="Join/Volunteer" data-ta="இணைய விண்ணப்பம்">இணைய விண்ணப்பம்</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p class="trn" data-en="&copy; 2026 Kamaraj Narpanie Iyakkam. All Rights Reserved." data-ta="&copy; 2026 காமராஜ் நற்பணி இயக்கம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.">&copy; 2026 காமராஜ் நற்பணி இயக்கம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</p>
+            <p class="trn" data-en="Made with <i class='fa-solid fa-heart' style='color: #e11d48;'></i> for the community" data-ta="சமூகத்தின் மேல் கொண்ட <i class='fa-solid fa-heart' style='color: #e11d48;'></i> அன்புடன் உருவாக்கப்பட்டது">சமூகத்தின் மேல் கொண்ட <i class='fa-solid fa-heart' style='color: #e11d48;'></i> அன்புடன் உருவாக்கப்பட்டது</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script src="script.js"></script>
+</body>
+</html>
