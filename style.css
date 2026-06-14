@@ -892,6 +892,15 @@ header.scrolled {
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
+.team-avatar-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
 .lightbox-caption {
     text-align: center;
     color: var(--primary);
